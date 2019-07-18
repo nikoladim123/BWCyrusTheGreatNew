@@ -45,24 +45,28 @@ for (var i = 0; i < imgHolder.length; i++) {
 
 
 // cheap
-// var mainBottomBg = document.getElementsByClassName('mainBottomBg');
-// function cheapFun() {
-//   if(window.innerHeight / 100 * 50 > mainBottomBg[0].getBoundingClientRect().top){
-//     mainBottomBg[0].style.background = '#e2cf31';
-//   }else{
-//     mainBottomBg[0].style.background = '#fcf4ef';
-//   }
-// }
+var picProgBox = document.getElementsByClassName('picProgBox');
+var mainBottomBg = document.getElementsByClassName('mainBottomBg');
+function cheapFun() {
+  if(window.innerHeight / 100 * 20 > picProgBox[0].getBoundingClientRect().top){
+    mainBottomBg[0].style.bottom = '-43.4vw';
+  }else{
+    mainBottomBg[0].style.bottom = '-75.4vw';
+  }
+}
 
 // new about me
 var aboutMe = document.getElementsByClassName('aboutMe');
 var aboutMeText = document.getElementsByClassName('aboutMeText');
+var animAboutMeReveal = document.getElementsByClassName('animAboutMeReveal');
 
 var aboutMeGradAnim = document.getElementsByClassName('aboutMeGradAnim');
 function aboutMeFun() {
-   if(window.innerHeight / 100 * 20 > aboutMe[0].getBoundingClientRect().top){
-     aboutMeGradAnim[0].style.bottom = '-200%';
-     aboutMeText[0].style.left = '-4vw';
+   if(window.innerHeight / 100 * 60 > aboutMe[0].getBoundingClientRect().top){
+     // aboutMeGradAnim[0].style.bottom = '-200%';
+     animAboutMeReveal[0].style.width = '0%';
+     aboutMeText[0].style.top = '-2.5vw';
+     console.log(1);
    }
 }
 
@@ -160,11 +164,11 @@ var threeImageContent = document.getElementsByClassName('threeImageContent');
 function davidOmid() {
   if(threeImageContent[0].getBoundingClientRect().top > 1){
     sideImgText[0].style.visibility = 'hidden';
-    console.log('turn me of');
+    // console.log('turn me of');
   }
   if(threeImageContent[0].getBoundingClientRect().top < 1){
     sideImgText[0].style.visibility = 'visible';
-    console.log('turn me on');
+    // console.log('turn me on');
   }
   if(window.innerHeight / 100 * 15 < rnd[0].getBoundingClientRect().top){
     sideImgText[0].style.right = '12vw';
@@ -338,7 +342,7 @@ function testimonialRun() {
 var rings = document.getElementsByClassName('rings');
 function ringsFun() {
   if(window.innerHeight / 100 * 50 > rings[0].getBoundingClientRect().top){
-    console.log('hello');
+    // console.log('hello');
     rings[0].style.animationName = 'rings';
   }
 }
@@ -356,7 +360,7 @@ window.addEventListener("scroll",()=>{
   davidOmid();
   // flowersParalaxFun();
   ringsFun();
-  // aboutMeFun();
+  aboutMeFun();
   // overlayDivAnimFun();
-  // cheapFun();
+  cheapFun();
 });
