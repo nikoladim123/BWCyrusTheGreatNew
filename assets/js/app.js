@@ -359,7 +359,7 @@ window.addEventListener("scroll",()=>{
   davidOmidFire();
   davidOmid();
   // flowersParalaxFun();
-  ringsFun();
+  // ringsFun();
   aboutMeFun();
   // overlayDivAnimFun();
   cheapFun();
