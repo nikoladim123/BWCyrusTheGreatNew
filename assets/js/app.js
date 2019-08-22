@@ -339,13 +339,41 @@ function testimonialRun() {
 // }
 
 // rings
-var rings = document.getElementsByClassName('rings');
-function ringsFun() {
-  if(window.innerHeight / 100 * 50 > rings[0].getBoundingClientRect().top){
-    // console.log('hello');
-    rings[0].style.animationName = 'rings';
-  }
+// var rings = document.getElementsByClassName('rings');
+// function ringsFun() {
+//   if(window.innerHeight / 100 * 50 > rings[0].getBoundingClientRect().top){
+//     // console.log('hello');
+//     rings[0].style.animationName = 'rings';
+//   }
+// }
+
+
+// recent projects header anim
+var recentProjectsLayer = document.getElementsByClassName('recentProjectsLayer');
+var recentProjectsPar = document.getElementsByClassName('recentProjectsPar');
+
+
+function recentProjectsLayerFun() {
+  recentProjectsLayer[0].style.width = '100%';
+  setTimeout(function () {
+    recentProjectsLayer[0].style.left = 'unset';
+    recentProjectsLayer[0].style.right = '0';
+    recentProjectsLayer[0].style.width = '0';
+    recentProjectsPar[0].style.width = '100%';
+  }, 1000);
 }
+
+
+
+
+
+
+
+
+// window listeners
+window.addEventListener('load',()=>{
+  recentProjectsLayerFun()
+})
 
 
 window.addEventListener("scroll",()=>{
