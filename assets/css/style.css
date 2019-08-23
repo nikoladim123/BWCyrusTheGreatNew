@@ -150,7 +150,9 @@ header{
   width: auto;
   min-width: 100%;
   min-height: 100vh;
-
+  background-image: url('../images/desktop/cover.jpg');
+  background-position:center;
+  background-size: cover;
 }
 
 .rings{
@@ -427,6 +429,7 @@ main{
   padding-bottom: 5vw;
   background-size: 10;
   top: -0.3vw;
+  overflow: hidden;
   /* background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 65%, rgba(207,174,165,1) 100%); */
   background: linear-gradient(to bottom, rgba(210,160,159,1) 0%, rgba(214,205,208,1) 100%);
   /* background-position-y: -55vw; */
@@ -853,8 +856,8 @@ main{
   font-weight: 900;
 }
 
-.services a:hover{
-  color:rgba(196,194,57,0.5);
+.services a:hover {
+    color: #b83e65;
 }
 
 .bottomServices {

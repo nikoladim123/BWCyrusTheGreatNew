@@ -294,7 +294,7 @@ var bottomServices = document.getElementsByClassName('bottomServices');
 function serviceRun() {
   if(window.innerHeight / 100 * 80 > threeImageContent[0].getBoundingClientRect().top){
     bottomServicesAnimGrad[0].style.left = '100%';
-    bottomServices[0].style.background = 'rgb(57, 38, 45,0.8)'
+    bottomServices[0].style.background = 'rgb(57, 38, 45,0.93)'
 
     setTimeout(function () {
       topServicesHeading[0].style.opacity = '1';
