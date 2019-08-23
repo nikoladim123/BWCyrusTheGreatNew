@@ -121,7 +121,7 @@ header{
   height: 71.0599vw;
   /* overflow:hidden; */
   /* background-color: rgb(232,213,198); */
-  z-index: 2;
+  z-index: 0;
   /* margin-bottom: 1.55vw; */
 }
 
@@ -135,7 +135,8 @@ header{
 }
 
 .cover{
-  top: 0vw;
+  /* top: 20.9vw; */
+  top: 0;
   left: 0;
   width: 100%;
   position: absolute;
@@ -413,22 +414,14 @@ header{
 }
 /* main */
 main{
-  /* background-color: rgb(232,213,198); */
-  /* transition: 2s; */
   z-index: 1;
   position: relative;
   height: 114vw;
-  /* background: #fcf4ef; */
-  /* background: linear-gradient(to bottom, rgba(60,65,69,1) 35%, rgba(104,108,111,1) 120%); */
-  /* background:linear-gradient(to bottom, #3c4145, #474b4f, #51565a, #5d6164, #686c6f); */
-  /* overflow: hidden; */
   padding-bottom: 5vw;
-  background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 100%);
-  background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 32%, rgba(207,174,165,1) 100%);
-  /* background-size: 100% 100%; */
   background-size: 10;
-  background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 65%, rgba(207,174,165,1) 100%);
-  background-position-y: -55vw;
+  /* background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 65%, rgba(207,174,165,1) 100%); */
+  background: linear-gradient(to bottom, rgba(210,160,159,1) 0%, rgba(214,205,208,1) 100%);
+  /* background-position-y: -55vw; */
 }
 .mainBottomBgContainer{
   position: absolute;
@@ -442,14 +435,15 @@ main{
   transition: 2.5s;
   position: absolute;
   height: 113.8vw;
-  width: 100%;
+  width: 122%;
   /* bottom: -43.4vw; */
   bottom: -75.4vw;
-  transform: skewY(-22deg);
+  transform: skewY(-52deg);
   background-size: 100% 100%;
   overflow: hidden;
   /* background: #e2cf31; */
-  background: #c2d0c5;
+  background: #d6cdd0;
+  left: 11.5vw;
 }
 .insideBottomBg{
   position: relative;
@@ -458,7 +452,7 @@ main{
   height: 82.8vw;
   bottom: 12vw;
   width: 100%;
-  transform: skewY(13deg);
+  transform: skewY(15deg);
   background-size: 100% 100%;
 }
 
