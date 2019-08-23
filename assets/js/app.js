@@ -364,16 +364,16 @@ function recentProjectsLayerFun() {
 }
 
 // fixed cover
-var cover = document.getElementsByClassName('cover');
-var header = document.getElementsByClassName('header');
-
-function coverFixedFun() {
-  if(header[0].getBoundingClientRect().top < 1){
-    cover[0].style.position = 'fixed';
-  }else{
-    cover[0].style.position = 'absolute';
-  }
-}
+// var cover = document.getElementsByClassName('cover');
+// var header = document.getElementsByClassName('header');
+//
+// function coverFixedFun() {
+//   if(header[0].getBoundingClientRect().top < 1){
+//     cover[0].style.position = 'fixed';
+//   }else{
+//     cover[0].style.position = 'absolute';
+//   }
+// }
 
 
 
@@ -402,5 +402,5 @@ window.addEventListener("scroll",()=>{
   aboutMeFun();
   // overlayDivAnimFun();
   cheapFun();
-  coverFixedFun();
+  // coverFixedFun();
 });
