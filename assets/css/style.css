@@ -146,6 +146,13 @@ header{
   animation-timing-function: linear; */
 }
 
+.coverFixed{
+  width: auto;
+  min-width: 100%;
+  min-height: 100vh;
+
+}
+
 .rings{
   transition: 2s;
   position: absolute;
@@ -419,6 +426,7 @@ main{
   height: 114vw;
   padding-bottom: 5vw;
   background-size: 10;
+  top: -0.3vw;
   /* background: radial-gradient(ellipse at center, rgba(236,224,222,1) 0%, rgba(207,174,165,1) 65%, rgba(207,174,165,1) 100%); */
   background: linear-gradient(to bottom, rgba(210,160,159,1) 0%, rgba(214,205,208,1) 100%);
   /* background-position-y: -55vw; */
@@ -858,7 +866,8 @@ main{
   transition-delay: 1s;
   position: relative;
   margin: 0;
-  z-index: -1;
+  /* z-index: -1; */
+      margin-top: -0.5vw;
   background: #ba4066;
   /* bottom: 0px; */
   /* margin-left: 50%; */
@@ -878,7 +887,7 @@ main{
   top: -0.75vw;
   color:#39262d;
   opacity: 0;
-  font-family: 'Blacksword';
+  font-family: 'MoniqueScript-Regular';
   margin-bottom: -1.3vw;
   /* transition-delay: 0.5s; */
   /* 123 */
@@ -934,6 +943,7 @@ main{
 }
 .contentBox:nth-child(3){
   background-image: url('../images/desktop/threeContent/3.jpg');
+  background-position: right;
 }
 .contentBox:hover > .orangeOverlay{
   opacity: 0;
@@ -945,7 +955,7 @@ main{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(197,143,66,0.75);
+  background-color: rgba(233,133,110,0.5);
 }
 
 
