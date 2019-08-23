@@ -965,7 +965,7 @@ main{
 /* recentWorks */
 .recentWorks{
   position: relative;
-  background: #0c0e14;
+  background: rgba(234,241,239,0.9);
   padding: 0.1px;
 }
 
@@ -1042,7 +1042,7 @@ main{
   writing-mode: tb;
   font-family: 'Montserrat-Light';
   font-size: 1.17vw;
-  color: white;
+  color: #c4959a;
   height: 50vw;
 }
 .sideImgText span{
@@ -1059,7 +1059,7 @@ main{
   position: absolute;
   bottom: -15vw;
   right: 0;
-  color: white;
+  color: #c4959a;
   width: 0vw;
 }
 .recentImgItaly{
@@ -1074,7 +1074,7 @@ main{
   width: 33vw;
   font-size: 1.2vw;
   text-align: justify;
-  color: white;
+  color: #c4959a;
   opacity: 0.4;
   font-family: 'Montserrat-Light';
 }
@@ -1166,7 +1166,7 @@ main{
   top: 0;
 }
 .rndTextDes .recentImgItaly{
-  color: white;
+  color: #c4959a;
 }
 
 .rndTwo{
@@ -1189,7 +1189,7 @@ main{
 }
 
 .rndTwoContainer .recentImgItaly{
-  color: white;
+  color: #c4959a;
 }
 
 
