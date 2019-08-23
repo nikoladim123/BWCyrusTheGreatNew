@@ -101,8 +101,9 @@ function recentWorkText() {
 
       setTimeout(function () {
         recentWorkImgDivHtwo[0].style.fontSize = '3.5vw';
-        spanCapital[0].style.fontSize = '9.76vw';
-        spanCapital[1].style.fontSize = '9.76vw';
+        recentWorkImgDivHtwo[0].style.bottom = '0';
+        spanCapital[0].style.fontSize = '4.85vw';
+        spanCapital[1].style.fontSize = '4.85vw';
         recentWorkImgDiv[0].style.marginTop = '18.789vw';
       }, 500);
     }, 500);
@@ -171,11 +172,11 @@ function davidOmid() {
     // console.log('turn me on');
   }
   if(window.innerHeight / 100 * 15 < rnd[0].getBoundingClientRect().top){
-    sideImgText[0].style.right = '12vw';
+    sideImgText[0].style.right = '9vw';
     // sideImgText[0].style.visibility = 'visible';
   }
   if(window.innerHeight / 100 * 25 > rnd[0].getBoundingClientRect().top){
-    sideImgText[0].style.right = '27vw';
+    sideImgText[0].style.right = '10.5vw';
     console.log('rnd');
   }
   if(window.innerHeight / 100 * 80 > rnd[0].getBoundingClientRect().bottom){

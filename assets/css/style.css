@@ -965,17 +965,17 @@ main{
 /* recentWorks */
 .recentWorks{
   position: relative;
-  background: rgba(234,241,239,0.9);
+  background: rgba(234,241,239,1);
   padding: 0.1px;
 }
 
 .recentWorkImgDiv {
   transition: 2s;
-  width: 68.326vw;
+  width: 58.252vw;
   height: auto;
   position: relative;
   margin-left: 50%;
-  left: -34.15vw;
+  left: -24.15vw;
   /* margin-top: 18.789vw; */
   margin-top: 23.789vw;
   margin-bottom: 16vw;
@@ -1014,24 +1014,24 @@ main{
   font-weight: 100;
   width: 100%;
   /* font-size: 3.5vw; */
-  font-size: 5.5vw;
+  font-size: 4.5vw;
   position: absolute;
-  color: rgba(196,194,57);
-  font-family: 'Blacksword';
+  color: #c4959a;
+  font-family: 'MoniqueScript-Regular';
   /* margin-left: 30vw; */
-  bottom: 0;
+  bottom: 5vw;
 }
 
 .spanCapital{
   transition: 1.5s;
   /* font-size: 9.76vw; */
-  font-size: 17vw;
+  /* font-size: 17vw; */
 }
 
 
-.spanWork{
+/* .spanWork{
   font-family: 'Blacksword';
-}
+} */
 
 .sideImgText {
   visibility: hidden;
@@ -1068,28 +1068,28 @@ main{
   font-size: 3.5139vw;
   text-align: right;
   margin-right: 0.5vw;
-  font-family: 'Montserrat-ExtraBold';
+  font-family: 'Montserrat-Bold';
 }
 .recentImgItalyDescription{
   width: 33vw;
   font-size: 1.2vw;
   text-align: justify;
   color: #c4959a;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   font-family: 'Montserrat-Light';
 }
 
 .rnd{
   transition: 1s;
-  width: 39.04vw;
+  width: 58.252vw;
   position: relative;
-  left: -19.52vw;
+  left: -23.52vw;
   margin-left: 50%;
   /* margin-bottom: 18.195vw; */
   margin-top: 23vw;
   transform: scale(1);
   overflow: hidden;
-  cursor: url("../images/common/cross.png") 63.5 63.5,pointer ;
+  cursor: url("../images/common/cross.png") 63.5 63.5,pointer;
 }
 
 .rnd:hover{
@@ -1104,7 +1104,7 @@ main{
   transform: scale(1);
   transition: 1s;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .rndInside{
@@ -1126,7 +1126,7 @@ main{
   pointer-events: none;
   transition: 0.4s;
   transition-delay: 0.4s;
-  background-color: rgba(198,216,0,0.84);
+  background-color: rgba(197,98,133,0.84);
   position: relative;
   /* width: 80%; */
   /* height: 85%; */
@@ -1155,7 +1155,7 @@ main{
   position: relative;
   /* border: 1px solid; */
   /* padding-left: 35vw; */
-  left: 35.5vw;
+  left: 51.5vw;
   overflow: hidden;
   height: auto;
 }
@@ -1218,7 +1218,7 @@ main{
   margin: 0;
   width: 100%;
   text-align: center;
-  color: rgba(196,194,57);
+  color: #c4959a;
   opacity: 0;
   font-family: 'Blacksword';
   /* font-size: 3.9vw; */
@@ -1272,7 +1272,7 @@ main{
   margin: 0;
   width: 100%;
   text-align: center;
-  color: rgba(196,194,57);
+  color: #c4959a;
   opacity: 0;
   font-family: 'Blacksword';
   /* font-size: 3.9vw; */
@@ -1457,7 +1457,7 @@ main{
   text-align: center;
   font-size: 2vw;
   top: 2.5vw;
-  color: rgba(196,194,57,0.5);
+  color: #c4959a;
   font-family: 'Blacksword';
   /* font-size: 3.9vw; */
   font-size: 6.7vw;
